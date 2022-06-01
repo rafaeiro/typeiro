@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Époque</title>
+    <title>Typeiro</title>
     <link rel="stylesheet" href="fonts/myfonts/epoque/epoque.css" type="text/css" charset="utf-8">
     <link rel="stylesheet" href="fonts/myfonts/epoque-light/epoque-light.css" type="text/css" charset="utf-8">
     <link rel="stylesheet" type="text/css" href="estilo/cabecalho.css" charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="estilo/typeiro.css" charset="utf-8"/>
     <link rel="stylesheet" href="estilo/rodape.css" type="text/css" charset="utf-8">
     <style>
         @font-face {
@@ -18,131 +19,6 @@
     font-style: normal;
     font-weight: bold;
 }
-
-* {
-    color: lavender;
-}
-body {
-    font: normal normal normal 1em/1 sans-serif;
-}
-.menu, .rodape {
-    font-family: 'acay';
-    font-style: normal;
-    font-size: 1.05em;
-    letter-spacing: 0.015em;
-}
-section>h1 {
-    font: normal normal 6em/1 'epoque-light', sans-serif;
-    text-align: center;
-    color: dodgerblue;
-    padding-top: 96px;
-}
-
-p,
-pre,
-a,
-span,
-h1,
-h2,
-h3,
-ul {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    text-decoration: none;
-    list-style-type: none;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    position: relative;
-    width: 100%;
-}
-
-section {
-    position: relative;
-    height: 68vh;
-}
-
-#prologo p {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.25em;
-    padding-top: 15vh;
-    padding-bottom: 5px;
-    color: dodgerblue;
-}
-
-#prologo {
-    background-color: rgb(252, 253, 253);
-    width: 100%;
-    background-image: url("../midia/imagens/background001.png");
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.48);
-    padding-top: 80px;
-    padding-bottom: 80px;
-    z-index: 10;
-}
-@media screen and (min-width: 641px) and (max-width: 960px) {
-    section {
-        height: 54vw;
-    }
-    .paginas {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    #prologo {
-        background-image: url("../midia/imagens/background001-tb.png");
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-    }
-}
-@media screen and (min-width: 480px) and (max-width: 640px) {
-    section {
-        position: relative;
-        height: 62vw;
-    }
-    .paginas {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    .branca1 {
-        height: 88vh;
-        padding-top: 5vw;
-        padding-bottom: 5vw;
-    }
-}
-@media screen and (min-width: 300px) and (max-width: 480px) {
-    section {
-        height: 80vw;
-    }
-    section>h1 {
-        font: normal normal 5em/1 'epoque-light', sans-serif;
-    }
-    .branca1,
-    .paginas,
-    .prologo {
-        padding-top: 5vw;
-        padding-bottom: 15vw;
-    }
-    #prologo {
-        background-image: url("../midia/imagens/background001-tb.png");
-        padding-top: 12vh;
-        padding-bottom: 16vh;
-        font-size: 1.1em;
-    }
-    .branca1 {
-        background-image: url("../midia/imagens/background002-sm.png");
-    }
-}
-
 
     </style>
 </head>
@@ -196,14 +72,16 @@ section {
     <section id="prologo">
         
         <p>Rafaeiro Typeiro é uma fundição fontes digitais independente desde 2018. Administrada por Rafael Ferreira, cria fontes de varejo com caracteres fortes e designs personalizados para todo tipo de uso.</p>
-        <div class="epoque">
-            <img src="midia/imagens/epoque.png" alt="Epoque">
-        </div>
-        <div class="epoque_seria">
-            <img src="midia/imagens/epoque_seria.png" alt="Epoque Seria"">
-        </div>
-        <div class="alumina">
-            <img src="" alt="Alumina">
+        <div id="tipos">
+            <div>
+                <a href="https://rafaeiro.github.io/epoque/"><img class="epoque" src="midia/imagens/epoque.png" alt="Epoque"></a>
+            </div>
+            <div>
+                <a href="https://rafaeiro.github.io/epoque_seria/"><img class="epoque_seria" src="midia/imagens/epoque_seria.png" alt="Epoque Seria"></a>
+            </div>
+            <div>
+                <a href="https://rafaeiro.github.io/alumina/"><img class="alumina" src="midia/imagens/alumina.png" alt="Alumina"></a>
+            </div>
         </div>
     </section>
 

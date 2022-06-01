@@ -1,0 +1,126 @@
+@charset "utf-8";
+* {
+    color: lavender;
+}
+body {
+    font: normal normal normal 1em/1 sans-serif;
+}
+.menu, .rodape {
+    font-family: 'acay';
+    font-style: normal;
+    font-size: 1.05em;
+    letter-spacing: 0.015em;
+}
+section>h1 {
+    font: normal normal 6em/1 'epoque-light', sans-serif;
+    text-align: center;
+    color: dodgerblue;
+    padding-top: 96px;
+}
+
+p,
+pre,
+a,
+span,
+h1,
+h2,
+h3,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+    width: 100%;
+}
+
+#prologo p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25em;
+    padding-top: 15vh;
+    padding-bottom: 5px;
+    color: dodgerblue;
+}
+
+#prologo {
+    position: relative;
+    width: 100vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.epoque, .epoque_seria, .alumina {
+    width: 100vw;
+    margin: 1vh 0;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; /* IE */
+}
+.epoque:hover, .epoque_seria:hover, .alumina:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    /* transition: 1s; */
+}
+@media screen and (min-width: 641px) and (max-width: 960px) {
+    section {
+        height: 54vw;
+    }
+    .paginas {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    #prologo {
+        background-image: url("../midia/imagens/background001-tb.png");
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 640px) {
+    section {
+        position: relative;
+        height: 62vw;
+    }
+    .paginas {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .branca1 {
+        height: 88vh;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+    section {
+        height: 80vw;
+    }
+    section>h1 {
+        font: normal normal 5em/1 'epoque-light', sans-serif;
+    }
+    .branca1,
+    .paginas,
+    .prologo {
+        padding-top: 5vw;
+        padding-bottom: 15vw;
+    }
+    #prologo {
+        background-image: url("../midia/imagens/background001-tb.png");
+        padding-top: 12vh;
+        padding-bottom: 16vh;
+        font-size: 1.1em;
+    }
+    .branca1 {
+        background-image: url("../midia/imagens/background002-sm.png");
+    }
+}
