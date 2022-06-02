@@ -76,36 +76,59 @@ body {
 .clean {
     clear: right;
 }
-@media screen and (min-width: 641px) and (max-width: 1080px) {
+@media screen and (min-width: 801px) and (max-width: 1080px) {
+    .litle-desc {
+        width: 66%;
+        padding: 1vh 165px;
+        font-size: 1.12em;
+        line-height: 1.2em;
+    }
+    #usos { width: 98%; margin: 0 auto;}
+    .quadros {
+        width: 22vw;
+        padding-bottom: 1vh;
+    }
+    .use { height: 22vw; }
 
-    .paginas {
-        padding-top: 60px;
-        padding-bottom: 60px;
+}
+@media screen and (min-width: 641px) and (max-width: 800px) {
+    .litle-desc {
+        width: 66%;
+        padding: 1vh 165px;
+        font-size: 1.12em;
+        line-height: 1.2em;
     }
     #usos { width: 98%; margin: 0 auto;}
     .quadros {
         width: 31vw;
         padding-bottom: 1vh;
     }
-    .use { width: 31vw; min-width: 360px; height: auto;}
+    .use { height: 31vw; }
 
 }
 @media screen and (min-width: 480px) and (max-width: 640px) {
-    .paginas {
-        padding-top: 40px;
-        padding-bottom: 40px;
+    .litle-desc {
+        width: 80%;
+        padding: 1vh 10%;
+        font-size: 1.12em;
+        line-height: 1.2em;
     }
     .quadros {
         width: 46vw;
         padding-bottom: 1vh;
     }
-    .use { width: 46vw; min-width: 240px; height: auto;}
+    .use { height: 46vw; }
 }
 @media screen and (min-width: 240px) and (max-width: 480px) {
-
+    .litle-desc {
+        width: 90%;
+        padding: 1vh 5%;
+        font-size: 1.12em;
+        line-height: 1.2em;
+    }
     .quadros {
         width: 98vw;
         padding-bottom: 1vh;
     }
-    .use { width: 96vw; min-width: 140px; height: auto;}
+    .use { height: 96vw; }
 }

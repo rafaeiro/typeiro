@@ -73,16 +73,7 @@ footer {
 }
 
 @media screen and (min-width: 641px) and (max-width: 960px) {
-    .paginas {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    #prologo {
-        background-image: url("../midia/imagens/background001-tb.png");
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-    }
-    
+
     #rodape {
         height: 320px;
     }
@@ -96,15 +87,6 @@ footer {
 }
 
 @media screen and (min-width: 480px) and (max-width: 640px) {
-    .paginas {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    .branca1 {
-        height: 88vh;
-        padding-top: 5vw;
-        padding-bottom: 5vw;
-    }
 
     #rodape {
         height: 420px;
@@ -119,25 +101,7 @@ footer {
 }
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
-    section>h1 {
-        font: normal normal 5em/1 'epoque-light', sans-serif;
-    }
-    .branca1,
-    .paginas,
-    .prologo {
-        padding-top: 5vw;
-        padding-bottom: 15vw;
-    }
-    #prologo {
-        background-image: url("../midia/imagens/background001-tb.png");
-        padding-top: 12vh;
-        padding-bottom: 16vh;
-        font-size: 1.1em;
-    }
-    .branca1 {
-        background-image: url("../midia/imagens/background002-sm.png");
-    }
-    
+
     #rodape {
         height: 445px;
     }
