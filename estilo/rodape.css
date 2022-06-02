@@ -73,9 +73,6 @@ footer {
 }
 
 @media screen and (min-width: 641px) and (max-width: 960px) {
-    section {
-        height: 54vw;
-    }
     .paginas {
         padding-top: 60px;
         padding-bottom: 60px;
@@ -99,10 +96,6 @@ footer {
 }
 
 @media screen and (min-width: 480px) and (max-width: 640px) {
-    section {
-        position: relative;
-        height: 62vw;
-    }
     .paginas {
         padding-top: 40px;
         padding-bottom: 40px;
@@ -126,9 +119,6 @@ footer {
 }
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
-    section {
-        height: 80vw;
-    }
     section>h1 {
         font: normal normal 5em/1 'epoque-light', sans-serif;
     }
