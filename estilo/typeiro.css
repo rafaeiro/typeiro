@@ -46,8 +46,8 @@ body {
 .epoque, .epoque_seria, .alumina {
     width: 98vw;
     margin: 1vh 0;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: contrast(125%) brightness(136%) grayscale(100%);
+    filter: contrast(115%) brightness(110%) grayscale(100%);
     filter: gray; /* IE */
 }
 .epoque:hover,
@@ -68,8 +68,8 @@ body {
     width: 19vw;
     padding-bottom: 1vh;
     overflow: hidden;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: contrast(125%) brightness(136%) grayscale(100%);
+    filter: contrast(125%) brightness(136%) grayscale(100%);
     filter: gray; /* IE */
 }
 .use { height: 19vw;}
