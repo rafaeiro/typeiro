@@ -1,21 +1,13 @@
 @charset "utf-8";
-* {
-    color: lavender;
-}
+
 body {
-    font: normal normal normal 1em/1 sans-serif;
+    font: normal normal normal 1em/1 "Epoque", sans-serif; color: lavender;
 }
 .menu, .rodape {
     font-family: 'acay';
     font-style: normal;
     font-size: 1.05em;
     letter-spacing: 0.015em;
-}
-section>h1 {
-    font: normal normal 6em/1 'epoque-light', sans-serif;
-    text-align: center;
-    color: dodgerblue;
-    padding-top: 96px;
 }
 
 p,
@@ -29,13 +21,12 @@ ul {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
     text-decoration: none;
     list-style-type: none;
 }
-
+hr {  margin: 0; padding: 0; width: 98vw; }
+h2 { font-size: 2em; text-align: center; font-family: "acay"; padding: 0vh 2vw 3vh 2vw; color: dodgerblue;}
 body {
     margin: 0;
     padding: 0;
@@ -44,33 +35,39 @@ body {
     width: 100%;
 }
 
-#prologo p {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.25em;
-    padding-top: 15vh;
-    padding-bottom: 5px;
+.litle-desc {
+    width: 40%;
+    padding: 1vh 235px;
     color: dodgerblue;
-}
-
-#prologo {
-    position: relative;
-    width: 100vw;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 1.12em;
+    line-height: 1.2em;
 }
 
 .epoque, .epoque_seria, .alumina {
-    width: 100vw;
+    width: 98vw;
     margin: 1vh 0;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     filter: gray; /* IE */
 }
-.epoque:hover, .epoque_seria:hover, .alumina:hover {
+.epoque:hover, .epoque_seria:hover, .alumina:hover, .quadros:hover {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
     /* transition: 1s; */
+}
+#usos { width: 97%; margin: 0 auto;}
+.quadros {
+    float: left;
+    width: 19vw;
+    padding-bottom: 1vh;
+    overflow: hidden;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; /* IE */
+}
+.use { height: 19vw;}
+.clean {
+    clear: right;
 }
 @media screen and (min-width: 641px) and (max-width: 960px) {
     section {
