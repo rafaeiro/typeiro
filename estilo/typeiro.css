@@ -50,7 +50,14 @@ body {
     filter: grayscale(100%);
     filter: gray; /* IE */
 }
-.epoque:hover, .epoque_seria:hover, .alumina:hover, .quadros:hover {
+.epoque:hover,
+.epoque_seria:hover,
+.alumina:hover,
+.quadros:hover,
+.epoque:active,
+.epoque_seria:active,
+.alumina:active,
+.quadros:active {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
     /* transition: 1s; */
