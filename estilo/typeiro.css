@@ -36,11 +36,12 @@ body {
 }
 
 .litle-desc {
-    width: 40%;
-    padding: 1vh 235px;
-    color: #104981;
+    width: 41%;
+    padding: 10vh 235px;
+    color: #4080bfd1;
     font-size: 1.12em;
     line-height: 1.2em;
+    letter-spacing: 0.016em;
 }
 
 .epoque, .epoque_seria, .alumina {
